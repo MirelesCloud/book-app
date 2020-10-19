@@ -23,14 +23,6 @@ module.exports = {
     host: '127.0.0.1',
     dialect: 'postgres'
   },
-
-  build: {
-    database: 'book_test',
-    username: 'AlexMireles',
-    password: null,
-    host: '127.0.0.1',
-    dialect: 'postgres'
-  },
   
   production: {
     database: process.env.DB_NAME,
